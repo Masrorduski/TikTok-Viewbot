@@ -3,9 +3,9 @@ import time
 from selenium import webdriver, common
 
 os.system('cls && title [TikTok Automated Viewbot]')
-VIDEO_URL = input('[>] TikTok Video URL: ')
+VIDEO_URL = input('[>] https://vm.tiktok.com/ZSed2SJS2/: ')
 
-views_sent = 0
+views_sent = 500000000
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])  # Disables logging
 
@@ -55,13 +55,13 @@ while True:
         driver.quit()
         os.system('cls')
         print(
-            f'[>] TikTok Video URL: {VIDEO_URL}\n'
+            f'[>] TikTok Video URL: {https://vm.tiktok.com/ZSed2SJS2/}\n'
             '[!] Solve the captcha...\n'
             '[!] Invalid URL.'
         )
         break
     else:
-        views_sent += 1000
+        views_sent += 2000009
         os.system(f'title [TikTok Automated Viewbot] - Views Sent: {beautify(views_sent)}')
 
         seconds = 62
